@@ -193,7 +193,7 @@
           </script>
 
 <footer class="footer">
-  <p>© 2025 Vanessa Callysta Wijaya. All Rights Reserved.</p>
+  <p>© <span id="year"></span> Vanessa Callysta Wijaya. All Rights Reserved.</p>
   <div class="social-icons">
     <a href="#" target="_blank">🌐</a>
     <a href="#" target="_blank">📧</a>
@@ -201,9 +201,15 @@
   </div>
 </footer>
 
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+
 </body>
 
 </html>
+
 
 
 
